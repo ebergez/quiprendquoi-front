@@ -1,8 +1,8 @@
-@import 'vendors/reset.scss';
+@import "vendors/reset.scss";
 
-@import 'config/medias.scss';
+@import "config/medias.scss";
 
-@import 'blocs/newParty.scss';
+@import "blocs/newParty.scss";
 
 body {
   padding: 1em;
@@ -16,4 +16,12 @@ h1 {
 h2 {
   font-size: 1.6em;
   margin-bottom: 0.5em;
+}
+
+form {
+  border: 1px solid blue;
+
+  div {
+    border: 1px solid red;
+  }
 }

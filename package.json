@@ -15,7 +15,8 @@
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
   },
   "devDependencies": {
     "@babel/core": "^7.8.7",
@@ -26,5 +27,16 @@
     "node-sass": "^4.13.1",
     "nodemon": "^2.0.2",
     "watchify": "^3.11.1"
-  }
+  },
+  "directories": {
+    "doc": "doc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebergez/quiprendquoi-front.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ebergez/quiprendquoi-front/issues"
+  },
+  "homepage": "https://github.com/ebergez/quiprendquoi-front#readme"
 }
